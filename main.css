@@ -21,7 +21,6 @@ h1{
   /* 10px padding on top and bottom. 40% margin on each side */
   padding: 40px 20%;
   background-color: #fff;
-  position: relative;
 }
 
 #footer {
@@ -34,10 +33,14 @@ h1{
   font-family: "Courier New", Courier, monospace;
 }
 
+#img-positionner{
+  position: relative;
+}
+
 #fancy-image{
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 0;
+  right: 0;
   height: 250px;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
