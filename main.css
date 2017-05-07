@@ -18,7 +18,6 @@ h1{
 }
 
 #content {
-  /* 10px padding on top and bottom. 40% margin on each side */
   padding: 40px 20%;
   background-color: #fff;
 }
